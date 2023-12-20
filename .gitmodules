@@ -1,0 +1,3 @@
+[submodule "speedometer3"]
+	path = speedometer3
+	url = git@github.com:WebKit/Speedometer.git
