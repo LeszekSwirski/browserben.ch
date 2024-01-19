@@ -5,7 +5,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "dev": "http-server ./dist -p 7000 -c-1 --cors",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --nojekyll"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
