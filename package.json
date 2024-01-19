@@ -1,0 +1,13 @@
+{
+  "name": "browserben.ch",
+  "workspaces": ["dist/speedometer3"],
+  "homepage": "https://github.com/LeszekSwirski/browserben.ch",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "dev": "http-server ./dist -p 7000 -c-1 --cors",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
